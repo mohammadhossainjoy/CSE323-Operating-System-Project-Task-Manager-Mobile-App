@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#808080"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/descriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#808080"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time (YYYY-MM-DD HH:MM:SS)"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#808080"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+
+
+    <Spinner
+        android:id="@+id/prioritySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/priority_array"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#808080"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/locationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#808080"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#C5DAE4"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
